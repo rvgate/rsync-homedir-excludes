@@ -9,81 +9,161 @@
 #    USER=<homedir username here>
 #    rsync -aP --exclude-from=rsync-homedir-excludes.txt /home/$USER/ /media/$USER/linuxbackup/home/$USER/
 
+# Addition
+.ansible
+.armacyclesad
+.bomgar-rep
+.BurpSuite
+.cert
+.cookiecutterrc
+.dbus
+.DSL-Platform
+.electron
+.electron-gyp
+.esmtp_queue
+.F5Networks
+.factorio
+.fonts
+.GA_ClientID
+.gimp-2.8
+.gitkraken
+.gnome
+.gnupg
+.hplip
+.httpie
+.install4j
+.ipython
+.java
+.keras
+.lesshst
+.local
+.m2
+.mitmproxy
+.ngrok
+.node-gyp
+.node_repl_history
+.nuget
+.openshot_qt
+.oracle_jre_usage
+.pgadmin3
+.pgpass
+.php_history
+.pip
+.pipewire-media-session
+.pki
+.proxy_export
+.psql_history
+.purple
+.putty
+.pyenv
+.pylint.d
+.pypirc
+.python-version
+.python_history-25798.tmp
+.rediscli_history
+.s3cfg
+.sdkman
+.sky2
+.sonarlint
+.stellarium
+.swn
+.swo
+.swp
+.thunderbird
+.tnsrc
+.tox
+.var
+.vnc
+.vscode
+.vsts
+.vue-cli-ui
+.vuerc
+.w3m
+.yarn
+.yarnrc
+Android
+AndroidStudio
+burpsuite
+Citrix
+snap
+srv
+winedotnet
+winetricks
 
 ###############################################
 # directories, probably not worth a backup    #
 # (uncomment the files you don't need)        #
 ###############################################
 
-#.android
-#.AndroidStudio*/
-#Android/Sdk
-#.gradle
-#.gvm
-#.grails/
-#.grails_history
-#.kde/share/apps/nepomuk
-#.local/share/notbit
-#.local/libvirt
-#.local/share/libvirt
-#.vagrant
-#.vagrant.d
-#.wine
-#.twister
-#/twister
-#Applications/eclipse*
-#/Downloads
-#*Popcorntime*
-#/.aMule
-#/Scribus
-#/VirtualBox*
-#.local/share/gnome-boxes/images
-#/Nextcloud
-#_build
-#
-## Ruby gems
-#.rvm
-#
-## Add Game Folders here:
-#
-#/games
-#.local/share/Steam
-#.var/app/com.valvesoftware.Steam/.local/share/Steam
-#.steam
-#/Steam
-#.minecraft
-#.technic
-#.PlayOnLinux
-#.local/share/lutris/runners/wine/
-#
-## Spotify
-#.config/spotify/Users
-#.var/app/com.spotify.Client/config/spotify/Users
-#
-## those folders contain only temporary Videos I want to watch
-#/Videos
-#/Movies
-#
-## some history files
-#.python_history
-#.bash_history
-#.zsh_history
-#.mysql_history
-#
-## Python eggs
-#.local/lib/python*
-#
-## Python virtual environments
-#PycharmProjects/**/venv
-#
-## Maven local repository
-#/.m2
-#
-## Unlocked Plasma Vaults
-#/Vaults
-## Docker
-#.docker/machine
-#.local/share/containers
+.android
+.AndroidStudio*/
+Android/Sdk
+.gradle
+.gvm
+.grails/
+.grails_history
+.kde/share/apps/nepomuk
+.local/share/notbit
+.local/libvirt
+.local/share/libvirt
+.vagrant
+.vagrant.d
+.wine
+.twister
+/twister
+Applications/eclipse*
+/Downloads
+*Popcorntime*
+/.aMule
+/Scribus
+/VirtualBox*
+.local/share/gnome-boxes/images
+/Nextcloud
+_build
+
+# Ruby gems
+.rvm
+
+# Add Game Folders here:
+
+/games
+.local/share/Steam
+.var/app/com.valvesoftware.Steam/.local/share/Steam
+.steam
+/Steam
+.minecraft
+.technic
+.PlayOnLinux
+.local/share/lutris/runners/wine/
+
+# Spotify
+.config/spotify/Users
+.var/app/com.spotify.Client/config/spotify/Users
+
+# those folders contain only temporary Videos I want to watch
+/Videos
+/Movies
+
+# some history files
+.python_history
+.bash_history
+.zsh_history
+.mysql_history
+
+# Python eggs
+.local/lib/python*
+
+# Python virtual environments
+PycharmProjects/**/venv
+
+# Maven local repository
+/.m2
+
+# Unlocked Plasma Vaults
+/Vaults
+# Docker
+.docker/machine
+.local/share/containers
 
 ################################################
 # These directories may definitely be excluded #
